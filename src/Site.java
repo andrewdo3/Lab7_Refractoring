@@ -8,5 +8,17 @@ public class Site {
         rates = r;
     }
 
+    public double getBaseAmount() {
+        return 0;
+    }
 
+    public double getTaxAmount()
+    {
+        return 0;
+    }
+
+    public double getBillableAmount()
+    {
+        return getBaseAmount() + getTaxAmount();
+    }
 }
