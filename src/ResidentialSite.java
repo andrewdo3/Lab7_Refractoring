@@ -1,10 +1,7 @@
 public class ResidentialSite extends Site{
-
-    private double units;
-    private double rates;
     public ResidentialSite()
     {
-        super();
+        super(10, 20);
     }
 
     public double getBillableAmount()
