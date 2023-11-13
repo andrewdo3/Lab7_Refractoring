@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b4bafca-e53e-4b39-a5e8-4fdc82b140bc" name="Changes" comment="Starting point of Lab7">
+    <list default="true" id="5b4bafca-e53e-4b39-a5e8-4fdc82b140bc" name="Changes" comment="Made Site abstract and made getBaseAmount and getTaxAmount Abstract">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LifelineSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LifelineSite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ResidentialSite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ResidentialSite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +65,38 @@
       <option name="project" value="LOCAL" />
       <updated>1699897466865</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Moved the units and rates to the Site. Fixed constructor.">
+      <option name="closed" value="true" />
+      <created>1699897819210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699897819210</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added methods to Site">
+      <option name="closed" value="true" />
+      <created>1699898025704</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699898025704</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Made Site abstract and made getBaseAmount and getTaxAmount Abstract">
+      <option name="closed" value="true" />
+      <created>1699898272281</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699898272281</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting point of Lab7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting point of Lab7" />
+    <MESSAGE value="Moved the units and rates to the Site. Fixed constructor." />
+    <MESSAGE value="Added methods to Site" />
+    <MESSAGE value="Made Site abstract and made getBaseAmount and getTaxAmount Abstract" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made Site abstract and made getBaseAmount and getTaxAmount Abstract" />
   </component>
 </project>
