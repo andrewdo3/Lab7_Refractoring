@@ -1,4 +1,4 @@
-public class Site {
+public abstract class Site {
     protected double TAX_RATE;
     protected double units;
     protected double rates;
@@ -8,14 +8,9 @@ public class Site {
         rates = r;
     }
 
-    public double getBaseAmount() {
-        return 0;
-    }
+    public abstract double getBaseAmount();
 
-    public double getTaxAmount()
-    {
-        return 0;
-    }
+    public abstract double getTaxAmount();
 
     public double getBillableAmount()
     {
