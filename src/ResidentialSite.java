@@ -4,11 +4,13 @@ public class ResidentialSite extends Site{
         super(10, 20);
     }
 
-    public double getBillableAmount()
-    {
-        double base = units * rates;
-        double tax = base * TAX_RATE;
-        return base + tax;
+    @Override
+    public double getBaseAmount() {
+        return this.units * this.rates;
     }
 
+    @Override
+    public double getTaxAmount() {
+        return this.getBaseAmount() * super.TAX_RATE;
+    }
 }
